@@ -1,0 +1,37 @@
+.Container{
+	position: absolute;top:0;bottom: 0;left: 0;right: 0;margin:auto;z-index:100;align-items: center;
+  display: flex;justify-content: center;/*visibility:hidden;*/
+}
+.visibleContainer{
+	background:rgba(255,255,255,.2);padding:5px;width:100%;height:100%;padding:1px;box-shadow: 1px 1px 1px #aaaaaa;overflow:hidden;
+	
+}
+.template{
+	background:rgba(255,248,248,1);width:50%;height:90%;box-shadow: 1px 1px 1px #aaaaaa;overflow:scroll;float:right;
+	position: relative;right:0%;
+}
+.apiResponse{
+	background:rgba(255,248,248,1);width:50%;height:90%;box-shadow: 1px 1px 1px #aaaaaa;overflow:scroll;float:left;
+	position: relative;left:0%;
+}
+.visibleContainerFullScreen{
+	width:90%;height:90%;
+}
+.urlLabel{
+	font-size:15px;float:left;width:10%;height:37px;justify-content: center;align-items: center;display: flex;background:rgba(73,61,38,1);color:#fff;
+}
+.url{
+	outline:0;font-size:15px;overflow:hidden;width:75%;border:none;height:35px;padding-left:15px;box-shadow: 1px 1px 1px #aaaaaa;
+}
+.urlContainer{
+	padding:5px;background:rgba(255,255,255,.5);
+}
+/*.apiResponse{
+	background:rgba(255,255,255,.5);width:100%;height:90%;overflow:scroll;
+}*/
+.send{
+	float:right;width:10%;background:rgba(255,216,1,1);border:none;height:35px;box-shadow: 1px 1px 1px #aaaaaa;outline:0;font-weight:bold;
+}
+.send:hover{
+	background:rgba(255,255,0,1);
+}

@@ -1,0 +1,45 @@
+.iconCollapse{
+	width:8px;height:8px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90eg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.iconCollapse:hover{
+	width:10px;height:10px;
+	opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.iconExpand{
+	width:8px;height:8px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180eg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+.iconExpand:hover{
+	opacity: 1;width:10px;height:10px;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.elementLabel{
+	padding-left:10px;
+}
+.exampleLabel{
+	padding-left:10px;background-color:#555;
+}
+.hide{display:none;}
+.treeElementHolder{padding:2px;display:inline-block;}
+.labelHolder{background:rgba(255,255,255,.7);padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;
+	display:inline-block;margin-top:2px;box-shadow: 1px 1px 5px #cccccc;color:#333333;border-style: solid;
+	border-color:#ffffff;border-width:1px;
+	border-radius:5px;
+}
+.labelHolder:hover{background:rgba(255,255,255,.9);color:#000000;box-shadow: 1px 1px 2px #999999;color:#333333;}
+.exampleHolder{background:rgba(120,120,120,.7);padding-left:10px;padding-right:10px;padding-top:5px;padding-bottom:5px;
+	display:inline-block;margin-top:2px;box-shadow: 1px 1px 5px #cccccc;color:#333333;border-style: solid;
+	border-color:#ffffff;border-width:1px;
+	border-radius:5px;
+}
+.exampleHolder:hover{background:rgba(120,120,120,.9);color:#000000;box-shadow: 1px 1px 2px #999999;color:#333333;}
